@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+:root{
+    
+    --Paleblue: hsl(225, 58%, 86%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(230, 43%, 92%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--Verypaleblue);
+    display: grid;
+    place-items: center;
+}
+.bg{
+    position: absolute;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    top: 0;
+}
+.dblock{
+    display: block;
+}
+.card{
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 222;
+    margin-top: 30px;
+    
+    
+    
+}
+.myimage{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    height: 190px;
+    width: 100%;
+    
+
+}
+p{
+    color: var(--Desaturatedblue);
+}
+h2{
+    color: var(--Darkblue);
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+.mytext{
+    text-align: center;
+}
+.link{
+    border: 1px solid black;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--Paleblue);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 300px;
+    margin-left: 40px;
+    
+
+}
+
+
+.music{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.plan{
+    position: relative;
+    right: 20px;
+}
+
+.plan span {
+    display: block;
+    font-size: 12px;
+    color: var(--Desaturatedblue);
+    font-weight: 100;
+}
+.change{
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.btn{
+    padding: 10px 90px;
+    background-color: var(--Brightblue);
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    color: white;
+    font-size: ;
+    margin-left: 40px;
+    
+
+}
+.cancel{
+    text-align: center;
+    font-weight: 500;
+}
+@media(max-width:600px){
+    body{
+        margin: 1rem;
+
+    }
+    
+    .link{
+        font-size: 15px;
+}
+}
+
